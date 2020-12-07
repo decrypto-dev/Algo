@@ -1,0 +1,35 @@
+{
+  "name": "Trader-Bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bson": "^4.0.2",
+    "@types/cli-progress": "^3.7.0",
+    "@types/mongodb": "^3.5.18",
+    "@types/node": "^14.0.5",
+    "@types/ws": "^7.2.4"
+  },
+  "dependencies": {
+    "@types/moment-jalaali": "^0.7.4",
+    "axios": "^0.19.2",
+    "cli-progress": "^3.8.2",
+    "cli-table3": "^0.6.0",
+    "inversify": "^5.0.1",
+    "moment": "^2.26.0",
+    "moment-jalaali": "^0.9.2",
+    "moment-timezone": "^0.5.31",
+    "mongodb": "^3.5.8",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.5",
+    "ws": "^7.3.0"
+  }
+}
